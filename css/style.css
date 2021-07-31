@@ -1,0 +1,535 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+/*Global Css*/
+* {
+  margin: 0px;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.row {
+  width: 100%;
+}
+
+.col-1 {
+  width: 8.33%;
+  float: left;
+}
+
+.col-2 {
+  width: 16.67%;
+  float: left;
+}
+
+.col-3 {
+  width: 25%;
+  float: left;
+}
+
+.col-4 {
+  width: 33.33%;
+  float: left;
+}
+
+.col-5 {
+  width: 41.67%;
+  float: left;
+}
+
+.col-6 {
+  width: 50%;
+  float: left;
+}
+
+.col-7 {
+  width: 58.33%;
+  float: left;
+}
+
+.col-8 {
+  width: 66.67%;
+  float: left;
+}
+
+.col-9 {
+  width: 75%;
+  float: left;
+}
+
+.col-10 {
+  width: 83.33%;
+  float: left;
+}
+
+.col-11 {
+  width: 91.57%;
+  float: left;
+}
+
+.col-12 {
+  width: 100%;
+  float: left;
+}
+
+section {
+  float: left;
+  width: 100%;
+}
+
+/*Header Section CSS*/
+
+header {
+  height: 650px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+header .menu-section {
+  background-color: #0b665f;
+  height: 650px;
+  background-position: center;
+  background-size: cover;
+}
+
+header .menu-section h4 {
+  color: #ffc800c9;
+  padding-left: 40px;
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+header .menu-section .menu {
+  float: left;
+  width: 100%;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+/*
+header .menu-section .menu ul {
+  padding-left: 0;
+  margin-top: 7px;
+  float: left;
+  padding-left: 20px;
+}
+
+header .menu-section .menu ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+header .menu-section .menu ul li a {
+  color: white;
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+
+header .menu-section .menu ul li a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+*/
+
+.menu ul {
+  padding: 20px 0;
+  float: left;
+  margin-top: 7px;
+  padding-left: 15px;
+}
+
+ul li {
+  margin: 0 10px;
+  list-style: none;
+  display: inline-block;
+}
+
+ul li a {
+  color: #fff;
+  text-transform: uppercase;
+  padding: 8px 20px;
+  position: relative;
+  text-decoration: none;
+}
+
+ul li a::after {
+  content: "";
+  position: absolute;
+  background: #ffc800c9;
+  width: 0;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  transition: 0.3s linear;
+}
+
+ul li a::before {
+  content: "";
+  position: absolute;
+  background: #ffc800c9;
+  width: 0;
+  height: 2px;
+  right: 0;
+  bottom: 0;
+  transition: 0.3s linear;
+}
+
+ul li a:hover::after {
+  width: 48%;
+}
+
+ul li a:hover::before {
+  width: 48%;
+}
+
+ul li a:hover {
+  color: #ffc800c9;
+}
+
+header .menu-section h5 {
+  color: #ffc800c9;
+  padding-left: 180px;
+  font-size: 40px;
+  padding-top: 200px;
+  padding-bottom: 25px;
+}
+
+header .menu-section h1 {
+  color: white;
+  padding-left: 180px;
+  font-size: 70px;
+  padding-bottom: 25px;
+}
+
+header .menu-section p {
+  color: rgba(255, 255, 255, 0.548);
+  padding-left: 180px;
+  font-size: 20px;
+}
+
+.display {
+  background: url(../images/image2.jpg);
+  height: 650px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+/*about section*/
+
+.about-section {
+}
+
+.about-section .content {
+  text-align: center;
+  font-family: lato;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #e5e7e9;
+}
+
+.about-section .content h1 {
+  font-size: 40px;
+  color: #0b665f;
+  padding-bottom: 25px;
+  font-weight: 700;
+}
+
+.about-section .content p {
+  font-size: 16px;
+  padding-bottom: 25px;
+  letter-spacing: 0.5px;
+}
+
+.about-section .content button {
+  background-color: #ffc800c9;
+  color: #0b665f;
+  padding: 10px 15px;
+  border: transparent;
+  transition-duration: 0.4s;
+  border-radius: 3px;
+}
+
+.about-section .content button:hover {
+  background-color: #0b665f;
+  color: #ffc800c9;
+}
+
+/*Showreel section*/
+
+.showreel-section {
+  text-align: center;
+  font-family: lato;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.showreel-section h1 {
+  font-size: 60px;
+  color: #0b665f;
+  font-weight: 700;
+  padding-bottom: 60px;
+}
+
+/*Portfolio section*/
+
+.portfolio-section {
+}
+.portfolio-section .portfolio {
+  text-align: center;
+  font-family: lato;
+}
+.portfolio-section h1 {
+  font-size: 60px;
+  color: #0b665f;
+  font-weight: 700;
+  padding-bottom: 60px;
+}
+
+.image-box {
+  padding-left: 10px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+}
+
+.image-box .picture {
+  width: 100%;
+  height: 300px;
+}
+
+/*contact section*/
+
+.contact-section {
+  margin-top: 60px;
+}
+
+.contact-section .myimage {
+  background: url(../images/image11.jpg);
+  height: 650px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.contact-section .profile {
+  background-color: #0b665f;
+  height: 650px;
+  background-position: center;
+  background-size: cover;
+  padding-left: 100px;
+  font-family: lato;
+  margin-bottom: 20px;
+}
+
+.contact-section .profile h1 {
+  font-size: 60px;
+  color: #ffc800c9;
+  font-weight: 700;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+
+.contact-section .profile h5 {
+  font-size: 24px;
+  color: #fff;
+}
+
+.contact-section .profile h6 {
+  font-size: 17px;
+  color: #fff;
+  padding-top: 18px;
+  padding-bottom: 10px;
+}
+
+.contact-section .profile p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.685);
+  padding-bottom: 5px;
+}
+
+.contact-section .profile .nav-item {
+  border: 1px solid #ccc;
+  margin-right: 5px;
+  border-radius: 3px;
+  transition: all 0.5s;
+  margin-top: 15px;
+  padding: 2px 2px;
+}
+
+.contact-section .profile .nav-item .nav-link {
+  color: #ffc800c9;
+}
+
+.contact-section .profile .nav-item:hover {
+  border: 1px solid #ffc800c9;
+  background: #ffc800c9;
+}
+
+.contact-section .profile .nav-item:hover .nav-link {
+  color: #0b665f;
+}
+
+/*FOOTER*/
+
+.footer {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+/*responsive*/
+
+@media (max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+  ul li a {
+    padding: 8px 8px;
+  }
+  header .menu-section h5 {
+    padding-left: 120px;
+    font-size: 35px;
+  }
+
+  header .menu-section h1 {
+    padding-left: 120px;
+    font-size: 60px;
+  }
+
+  header .menu-section p {
+    padding-left: 120px;
+    font-size: 17px;
+  }
+  .about-section .content h1 {
+    font-size: 32px;
+  }
+
+  .about-section .content p {
+    font-size: 13px;
+  }
+
+  .about-section .content button {
+    padding: 10px 10px;
+  }
+  .showreel-section h1 {
+    font-size: 50px;
+    padding-bottom: 50px;
+  }
+  .portfolio-section h1 {
+    font-size: 50px;
+    color: #0b665f;
+    font-weight: 700;
+    padding-bottom: 50px;
+  }
+  .contact-section .profile h1 {
+    font-size: 50px;
+    padding-top: 60px;
+  }
+  .footer {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+  ul li a {
+    padding: 8px 0px;
+  }
+  header .menu-section h5 {
+    padding-left: 80px;
+    font-size: 30px;
+  }
+
+  header .menu-section h1 {
+    padding-left: 80px;
+    font-size: 50px;
+  }
+
+  header .menu-section p {
+    padding-left: 80px;
+    font-size: 16px;
+  }
+  .image-box .picture {
+    width: 100%;
+    height: 150px;
+  }
+  .showreel-section h1 {
+    font-size: 40px;
+    padding-bottom: 40px;
+  }
+  .portfolio-section h1 {
+    font-size: 40px;
+    color: #0b665f;
+    font-weight: 700;
+    padding-bottom: 40px;
+  }
+  .contact-section .profile h1 {
+    font-size: 40px;
+    padding-top: 50px;
+  }
+  .contact-section .profile h1 {
+    padding-top: 75px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 576px;
+    padding: 0 15px;
+  }
+  .col-3 {
+    max-width: 100%;
+  }
+  .col-4 {
+    max-width: 100%;
+  }
+  .col-5 {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  ul li a {
+    font-size: 12px;
+  }
+  header .menu-section h4 {
+    padding-left: 20px;
+  }
+  header .menu-section h5 {
+    padding-left: 60px;
+    font-size: 25px;
+  }
+
+  header .menu-section h1 {
+    padding-left: 60px;
+    font-size: 40px;
+  }
+
+  header .menu-section p {
+    padding-left: 60px;
+    font-size: 16px;
+  }
+  .col-3 {
+    max-width: 100%;
+  }
+  .col-4 {
+    max-width: 100%;
+  }
+  .col-5 {
+    max-width: 100%;
+  }
+  .image-box .picture {
+    width: 100%;
+    height: 120px;
+  }
+  .contact-section .profile {
+    padding-left: 70px;
+  }
+}
